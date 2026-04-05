@@ -34,7 +34,7 @@ Configuration:
 
 Connected to the Azure VM using SSH key authentication:
 
-ssh -i key.pem azureuser@<public-ip>
+ssh -i key.pem azureuser@public-ip
 
 This establishes a secure remote connection to the Linux server.
 
