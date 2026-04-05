@@ -71,8 +71,6 @@ Configured inbound security rules to allow only required traffic:
 
 This ensures the VM is securely accessible.
 
-![NSG Rules](screenshots/nsg-rules.png)
-
 ---
 
 ## Step 5 — Custom Demo Webpage
