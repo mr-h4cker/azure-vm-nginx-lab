@@ -79,7 +79,7 @@ Replaced the default NGINX page with a custom demo webpage hosted on the Azure V
 
 Accessed using:
 
-http://<public-ip>
+http://public-ip
 
 ![Demo Webpage](screenshots/demo-webpage.png)
 
