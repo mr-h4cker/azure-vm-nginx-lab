@@ -103,6 +103,21 @@ Local Machine → SSH → Azure VM → NGINX → Browser
 
 ---
 
+## Demo Webpage Code
+
+The custom webpage hosted on the Azure VM is included in this repository:
+
+/website/index.html
+
+This file replaced the default NGINX page located at:
+
+/var/www/html/index.html
+
+To deploy the webpage: sudo nano /var/www/html/index.html
+
+Paste contents of: website/index.html
+
+
 ## Author
 
 Deepak Parmar
