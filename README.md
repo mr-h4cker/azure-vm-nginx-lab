@@ -44,18 +44,12 @@ This establishes a secure remote connection to the Linux server.
 
 ## Step 3 — Install and Start NGINX
 
-Updated packages and installed NGINX web server:
-
-sudo apt update
+Updated packages and installed NGINX web server: sudo apt update
 sudo apt install nginx -y
 
-Started the web server:
+Started the web server: sudo systemctl start nginx
 
-sudo systemctl start nginx
-
-Verified service status:
-
-sudo systemctl status nginx
+Verified service status: sudo systemctl status nginx
 
 ![NGINX Status](screenshots/nginx-status.png)
 
@@ -77,9 +71,7 @@ This ensures the VM is securely accessible.
 
 Replaced the default NGINX page with a custom demo webpage hosted on the Azure VM.
 
-Accessed using:
-
-http://public-ip
+Accessed using: http://public-ip
 
 ![Demo Webpage](screenshots/demo-webpage.png)
 
@@ -105,18 +97,13 @@ Local Machine → SSH → Azure VM → NGINX → Browser
 
 ## Demo Webpage Code
 
-The custom webpage hosted on the Azure VM is included in this repository:
+The custom webpage hosted on the Azure VM is included in this repository: /website/index.html
 
-/website/index.html
-
-This file replaced the default NGINX page located at:
-
-/var/www/html/index.html
+This file replaced the default NGINX page located at: /var/www/html/index.html
 
 To deploy the webpage: sudo nano /var/www/html/index.html
 
 Paste contents of: website/index.html
-
 
 ## Author
 
